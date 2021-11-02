@@ -1,0 +1,50 @@
+
+question 1.1:
+bookPrice = 24.95
+discount = 40/100
+totalNumberOfBooks= 60
+
+wholeSalePrice = bookPrice*discount
+shippingFirstCopy = 3
+shippingSubsequentCopies = 0.75
+
+totalBookCost = wholeSalePrice*totalNumberOfBooks
+totalShippingCost = shippingFirstCopy + (shippingSubsequentCopies*59)
+
+totalWholeSaleCost = totalBookCost + totalShippingCost
+
+#i will now create a function for calculating the total wholesale cost
+def wholeSaleCost(totalWholeSaleCost):
+    return totalWholeSaleCost
+
+print(totalWholeSaleCost)
+
+
+bookPrice = 24.95
+discount = 40/100
+totalNumberOfBooks= 60
+NumberOfSubsequentCopies = 59
+shippingFirstCopy = 3
+shippingSubsequentCopies = 0.75
+
+wholeSalePrice = bookPrice*discount
+totalBookCost = wholeSalePrice*totalNumberOfBooks
+totalShippingCost = shippingFirstCopy + (shippingSubsequentCopies*NumberOfSubsequentCopies)
+
+#i will now create a function for calculating the total wholesale cost
+def wholeSaleCost(totalBookCost, totalShippingCost):
+    totalWholeSaleCost = totalBookCost + totalShippingCost
+    return totalWholeSaleCost
+
+print(totalWholeSaleCost)
+
+
+question 1.2:
+classAge = 28
+numberInClass = 0
+
+def myClassAge (classAge, numberInClass):
+    averageAge = classAge/numberInClass
+    return averageAge
+
+print(averageAge)
